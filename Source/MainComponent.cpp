@@ -18,8 +18,8 @@ void MainComponent::paint (juce::Graphics& g)
     g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
 
     g.setFont (juce::Font (40.0f));
-    g.setColour (juce::Colours::green);
-    g.drawText ("App from Notebook", getLocalBounds(), juce::Justification::centred, true);
+    g.setColour (juce::Colours::cadetblue);
+    g.drawText ("App from Desktop", getLocalBounds(), juce::Justification::centred, true);
 }
 
 void MainComponent::resized()
